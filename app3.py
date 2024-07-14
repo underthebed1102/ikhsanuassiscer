@@ -105,8 +105,7 @@ def main():
         st.image(image,width =200) 
         selected = option_menu('Disease Diagnosis and Recommendation System',
                               
-                              ['GENERAL','Diabetes Prediction',
-                               'Heart Disease Prediction',
+                              [
                                'Parkinsons Prediction','BMI CALCULATOR'],
                               icons=['dashboard','activity','heart','person','line-chart'],
                               default_index=0)
